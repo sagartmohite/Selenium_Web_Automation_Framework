@@ -3,17 +3,17 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/sagar/IdeaProjects/ATB5xWebAutomationFramework">
         <classes>
-            <class name="com.thetestingacademy.tests.TestVWOLogin">
+            <class name="com.learnselenium.tests.TestVWOLogin">
                 <methods>
                     <include name="testLoginNegative"/>
                 </methods>
             </class>
-            <class name="com.thetestingacademy.tests.TestVWOLoginPOM">
+            <class name="com.learnselenium.tests.TestVWOLoginPOM">
                 <methods>
                     <include name="testLoginNegative"/>
                 </methods>
             </class>
-            <class name="com.thetestingacademy.tests.TestVWOLoginPOMBaseTest">
+            <class name="com.learnselenium.tests.TestVWOLoginPOMBaseTest">
                 <methods>
                     <include name="testLoginNegative"/>
                     <include name="testLoginPositive"/>
