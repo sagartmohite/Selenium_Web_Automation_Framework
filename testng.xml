@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sagar/IdeaProjects/ATB5xWebAutomationFramework">
+        <classes>
+            <class name="com.thetestingacademy.tests.TestVWOLogin">
+                <methods>
+                    <include name="testLoginNegative"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.tests.TestVWOLoginPOM">
+                <methods>
+                    <include name="testLoginNegative"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.tests.TestVWOLoginPOMBaseTest">
+                <methods>
+                    <include name="testLoginNegative"/>
+                    <include name="testLoginPositive"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
